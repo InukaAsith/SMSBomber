@@ -5,7 +5,8 @@
 - **The Bomber Only Works For Sri Lankan Numbers**
 -ආතල් විතරක් ගනින්
 -Data නැතුව වැඩ නෑ..
-- **Developer Is Not Responsible For The Misuse Of Sl-Bomber**
+- **Developer Is Not Responsible For The Misuse **
+** This Code is using some content by SLSandaru's SL Bomber.. May be some rights reserved by him **
 <br>
 
 ## OS Support
@@ -26,9 +27,9 @@ To Use The Bomber Type The Following Commands In Termux:
 ```
 apt update && apt upgrade -y
 apt install git python -y
-git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
-cd JE-Bomber
-pip3 install -r requirements.txt
-python jebomber.py
+git clone https://github.com/InukaAsith/SMSBomber.git
+cd SMSBomber
+pip install -r requirements.txt
+python smsbomber.py
 ```
 
