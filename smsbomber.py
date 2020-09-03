@@ -8,7 +8,7 @@ from colorama import Fore,init,Style
 init(autoreset=True)
 os.system(cle)
 fore=['\x1b[91m','\x1b[34m','\x1b[36m','\x1b[93m','\x1b[32m','\x1b[35m','\x1b[31m','\x1b[94m','\x1b[96m','\x1b[92m','\x1b[33m','\x1b[95m']
-logo="""
+logo=("""
 ░██████╗███╗░░░███╗░██████╗  
 ██╔════╝████╗░████║██╔════╝  
 ╚█████╗░██╔████╔██║╚█████╗░  
@@ -23,7 +23,7 @@ logo="""
 ╚═════╝░░╚════╝░╚═╝░░░░░╚═╝╚═════╝░╚══════╝╚═╝░░╚═╝
 
 By Inuka ASiTH
-"""
+""")
 bar=f'{random.choice(fore)}\x1b[1m_________________________{random.choice(fore)}_________________________\x1b[0m'
 print(bar+'\n')
 print(logo)
@@ -33,7 +33,7 @@ print ("""
 1) Start SMS Bomber
 2) Start Whatsapp Bomber
 3) Start E-Mail Bomber
-4) Exit"""
+4) Exit""")
 def prsent(count,num):
 	sys.stdout.write('\r' +random.choice(fore) +Style.BRIGHT+'\t[*]'+' Bombing '+str(num)+'\t'+str(count)+' Sent')
 	sys.stdout.flush()
@@ -702,6 +702,6 @@ elif cho == 4:
 This Aplication developed by InukaASiTH
 [*] Text Message bomber is a copy of SL Bomber By Sandaru (https://github.com/Sl-Sanda-Ru/Sl-Bomber.git)
 A Product By JASON ENT®(t.me/InfinityJE)
-"""
+""")
 else:
 	exit()
