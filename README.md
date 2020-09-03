@@ -1,5 +1,5 @@
-<h1 align="center">JE Bomber</h1>
-<p align="center">JE bomber For Sri Lankan Numbers.</p><br>
+<h1 align="center">SMS Bomber</h1>
+<p align="center">SMS bomber For Sri Lankan Numbers.</p><br>
 
 ## Note:
 - **The Bomber Only Works For Sri Lankan Numbers**
