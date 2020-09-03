@@ -31,8 +31,8 @@ print(bar+'\n')
 time.sleep(0.3)
 print ("""
 1) Start SMS Bomber
-2) Start Whatsapp Bomber
-3) Start E-Mail Bomber
+2) Start E-Mail Bomber
+3) About
 4) Exit""")
 def prsent(count,num):
 	sys.stdout.write('\r' +random.choice(fore) +Style.BRIGHT+'\t[*]'+' Bombing '+str(num)+'\t'+str(count)+' Sent')
@@ -47,7 +47,7 @@ time.sleep(0.3)
 while True:
 	try:
 		cho=int(input(Fore.LIGHTCYAN_EX+Style.BRIGHT+'Enter Your Choice: '))
-		if cho > 0 and cho <6:
+		if cho > 0 and cho <5:
 			break
 		else:
 			Print(Fore.LIGHTRED_EX+Style.BRIGHT+'[!] Please Enter A Correct Choice!')
@@ -690,17 +690,16 @@ if cho==1:
 	else:
 		exit()
 elif cho == 2:
-	os.system('python wbomber.py')
-elif cho == 3:
 	os.system('python ebomber.py')
-elif cho == 4:
+
+elif cho == 3:
 	os.system(cle)
 	print(bar+'\n')
 	print(logo)
 	print(bar+'\n')
 	print("""
 This Aplication developed by InukaASiTH
-[*] Text Message bomber is a copy of SL Bomber By Sandaru (https://github.com/Sl-Sanda-Ru/Sl-Bomber.git)
+[*] Text Message bomber is a copy of SL Bomber By SL Sandaru (https://github.com/Sl-Sanda-Ru/Sl-Bomber.git)
 A Product By JASON ENT®(t.me/InfinityJE)
 """)
 else:
